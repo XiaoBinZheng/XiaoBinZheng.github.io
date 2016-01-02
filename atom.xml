@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Hexo]]></title>
-  
+  <title><![CDATA[Zheng's Blog]]></title>
+  <subtitle><![CDATA[Just for fun...]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
   <updated>2016-01-02T12:54:24.629Z</updated>
