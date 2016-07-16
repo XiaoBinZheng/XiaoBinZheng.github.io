@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Just for fun...]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-16T09:48:15.320Z</updated>
+  <updated>2016-07-16T16:18:16.920Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,20 +19,16 @@
     <link href="http://yoursite.com/2016/07/16/Markdown%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98/"/>
     <id>http://yoursite.com/2016/07/16/Markdown语法备忘/</id>
     <published>2016-07-16T07:20:03.000Z</published>
-    <updated>2016-07-16T09:48:15.320Z</updated>
+    <updated>2016-07-16T16:18:16.920Z</updated>
     <content type="html"><![CDATA[<h2 id="u884C_u5185HTML"><a href="#u884C_u5185HTML" class="headerlink" title="行内HTML"></a>行内HTML</h2><p>Markdown可以直接嵌入Html的格式语法，例如：</p>
-<pre><code>This is a regular paragraph.
-
-&lt;table&gt;
+<pre><code>&lt;table&gt;
     &lt;tr&gt;
         &lt;td&gt;Foo&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
-
-This is another regular paragraph.
 </code></pre><p><strong>效果</strong>：</p>
-<p>This is a regular paragraph.</p>
-<p><table><br>    <tr><br>        <td>Foo</td><br>    </tr><br></table><br>This is another regular paragraph.</p>
+<table><br>    <tr><br>        <td>Foo</td><br>    </tr><br></table>
+
 <hr>
 <h2 id="u6BB5_u843D_u4E0E_u6362_u884C"><a href="#u6BB5_u843D_u4E0E_u6362_u884C" class="headerlink" title="段落与换行"></a>段落与换行</h2><p>一个段落由一个相连接的行句组成，通过一个以上的空行可以切分成不同的段落。</p>
 <p>通过输入<code>&lt;br /&gt;</code>标签，或者直接在行尾加上两个以上的空白，然后按enter，也可以实现换行的效果。</p>
