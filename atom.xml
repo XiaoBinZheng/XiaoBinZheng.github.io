@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Just for fun...]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-16T16:23:04.792Z</updated>
+  <updated>2016-07-16T16:33:19.029Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://yoursite.com/2016/07/16/Markdown%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98/"/>
     <id>http://yoursite.com/2016/07/16/Markdown语法备忘/</id>
     <published>2016-07-16T07:20:03.000Z</published>
-    <updated>2016-07-16T16:23:04.792Z</updated>
+    <updated>2016-07-16T16:33:19.029Z</updated>
     <content type="html"><![CDATA[<h2 id="u884C_u5185HTML"><a href="#u884C_u5185HTML" class="headerlink" title="行内HTML"></a>行内HTML</h2><p>Markdown可以直接嵌入Html的格式语法，例如：</p>
 <pre><code>This is a regular paragraph.
 
@@ -205,16 +205,16 @@ __double underscores__
 <pre><code>![Alt text][id]
 [id]: url/to/image  &quot;Optional title attribute&quot;
 </code></pre><hr>
-<p>内容来自<a href="http://markdown.tw/" title="Traditional Chinese Edition Document" target="_blank" rel="external">Markdown：Syntax</a>，原文使用繁体中文，这里使用简体中文，并且省略了原文的一些内容。此外，英文版的可以点击这里<a href="http://daringfireball.net/projects/markdown/syntax" title="English Edition Document" target="_blank" rel="external">Markdown：Syntax</a>。</p>
+<p>内容来自<a href="http://daringfireball.net/projects/markdown/syntax" title="English Edition Document" target="_blank" rel="external">Markdown：Syntax</a>，<a href="http://markdown.tw/" title="Traditional Chinese Edition Document" target="_blank" rel="external">繁体中文版点这里</a>。此处为简体中文，省略了繁体中文版的部分内容，只为熟悉Markdown语法。</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<h2 id="u884C_u5185HTML"><a href="#u884C_u5185HTML" class="headerlink" title="行内HTML"></a>行内HTML</h2><p>Markdown可以直接嵌入Html的格式语法，例如：</p>
 <pre]]>
     </summary>
     
-      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
     
-      <category term="tools" scheme="http://yoursite.com/categories/tools/"/>
+      <category term="Tools" scheme="http://yoursite.com/categories/Tools/"/>
     
   </entry>
   
@@ -230,41 +230,6 @@ __double underscores__
     </summary>
     
       <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2016/06/01/hello-world/"/>
-    <id>http://yoursite.com/2016/06/01/hello-world/</id>
-    <published>2016-06-01T08:44:43.548Z</published>
-    <updated>2016-01-02T10:48:34.177Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[随记]]></title>
-    <link href="http://yoursite.com/2016/06/01/%E9%9A%8F%E8%AE%B0/"/>
-    <id>http://yoursite.com/2016/06/01/随记/</id>
-    <published>2016-06-01T08:43:50.000Z</published>
-    <updated>2016-06-01T08:43:50.742Z</updated>
-    <content type="html"></content>
-    <summary type="html">
-    
-    </summary>
     
   </entry>
   
