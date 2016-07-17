@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Just for fun...]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-16T16:33:19.029Z</updated>
+  <updated>2016-07-17T06:34:24.874Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://yoursite.com/2016/07/16/Markdown%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98/"/>
     <id>http://yoursite.com/2016/07/16/Markdown语法备忘/</id>
     <published>2016-07-16T07:20:03.000Z</published>
-    <updated>2016-07-16T16:33:19.029Z</updated>
+    <updated>2016-07-17T06:34:24.874Z</updated>
     <content type="html"><![CDATA[<h2 id="u884C_u5185HTML"><a href="#u884C_u5185HTML" class="headerlink" title="行内HTML"></a>行内HTML</h2><p>Markdown可以直接嵌入Html的格式语法，例如：</p>
 <pre><code>This is a regular paragraph.
 
@@ -47,15 +47,13 @@ This is another regular paragraph.
 
 This is an H2
 -------------
-</code></pre><p><strong>效果</strong>：</p>
-<h1 id="This_is_an_H1"><a href="#This_is_an_H1" class="headerlink" title="This is an H1"></a>This is an H1</h1><h2 id="This_is_an_H2"><a href="#This_is_an_H2" class="headerlink" title="This is an H2"></a>This is an H2</h2><p>Atx形式则是在行首插入1到6个#，各对应标题h1到h6，例如：</p>
+</code></pre><p>Atx形式则是在行首插入1到6个#，各对应标题h1到h6，例如：</p>
 <pre><code># This is an H1
 
 ## This is an H2
 
 ###### This is an H6
-</code></pre><p><strong>效果</strong>：</p>
-<h1 id="This_is_an_H1-1"><a href="#This_is_an_H1-1" class="headerlink" title="This is an H1"></a>This is an H1</h1><h2 id="This_is_an_H2-1"><a href="#This_is_an_H2-1" class="headerlink" title="This is an H2"></a>This is an H2</h2><h6 id="This_is_an_H6"><a href="#This_is_an_H6" class="headerlink" title="This is an H6"></a>This is an H6</h6><hr>
+</code></pre><hr>
 <h2 id="u533A_u5757_u5F15_u8A00"><a href="#u533A_u5757_u5F15_u8A00" class="headerlink" title="区块引言"></a>区块引言</h2><p>引言语法，示例：</p>
 <pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 &gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
@@ -219,17 +217,35 @@ __double underscores__
   </entry>
   
   <entry>
-    <title><![CDATA[天池比赛小结]]></title>
+    <title><![CDATA[天池流行音乐比赛小结]]></title>
     <link href="http://yoursite.com/2016/07/16/%E5%A4%A9%E6%B1%A0%E6%B5%81%E8%A1%8C%E9%9F%B3%E4%B9%90%E6%AF%94%E8%B5%9B/"/>
     <id>http://yoursite.com/2016/07/16/天池流行音乐比赛/</id>
     <published>2016-07-16T06:38:36.000Z</published>
-    <updated>2016-07-16T09:41:57.510Z</updated>
-    <content type="html"></content>
+    <updated>2016-07-17T08:41:33.322Z</updated>
+    <content type="html"><![CDATA[<h2 id="u7ADE_u8D5B_u4ECB_u7ECD"><a href="#u7ADE_u8D5B_u4ECB_u7ECD" class="headerlink" title="竞赛介绍"></a>竞赛介绍</h2><p>本次大赛以阿里音乐用户的历史播放数据为基础，期望参赛者可以通过对阿里音乐平台上每个阶段艺人的试听量的预测，挖掘出即将成为潮流的艺人，从而实现对一个时间段内音乐流行趋势的准确把控。</p>
+<p>竞赛详情，点击<a href="https://tianchi.shuju.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.pGDBQ0&amp;raceId=231531" target="_blank" rel="external">天池大数据竞赛</a>。</p>
+<h2 id="u7B2C_u4E00_u8D5B_u5B63"><a href="#u7B2C_u4E00_u8D5B_u5B63" class="headerlink" title="第一赛季"></a>第一赛季</h2><h4 id="u8FD0_u7528_u65F6_u95F4_u5E8F_u5217_u7B97_u6CD5"><a href="#u8FD0_u7528_u65F6_u95F4_u5E8F_u5217_u7B97_u6CD5" class="headerlink" title="运用时间序列算法"></a>运用时间序列算法</h4><p>由于数据是具有时序的，目标是预测接下来的两个月的播放量，所以第一想法是用时间序列来处理这个问题。本来打算用Matlab来处理这个问题，看到队友用python的工具包处理数据的过程，不得不说python在数据处理和分析上更快速便捷，于是决定学一下python。</p>
+<p>这里推荐<a href="https://book.douban.com/subject/25779298/" target="_blank" rel="external">《利用Python进行数据分析》</a>这本书。</p>
+<p>基本思路是，提取每个艺人6个月里每天的播放量数据，对每个艺人的播放量数据单独绘制自相关图、偏相关图。根据绘制的图像，计算不同的ARMA模型，从中选择最合适的模型，进行残差分析，结果预测等。</p>
+<p>由于没有多少时间花在比赛上，所以一开始的目标就是维持进复赛的资格。提交了数据后很长一段时间没有动手。最后第一赛季结束时排到了480多名，勉强进入复赛。</p>
+<h2 id="u7B2C_u4E8C_u8D5B_u5B63"><a href="#u7B2C_u4E8C_u8D5B_u5B63" class="headerlink" title="第二赛季"></a>第二赛季</h2><p>进了复赛后，就只能在平台进行比赛，第一次使用平台带来了很大麻烦。加上到了期末，没有多少时间，最后只是勉强提交了一个结果，感谢队友费了不少心。</p>
+<h4 id="u56DE_u5F52_u7B97_u6CD5"><a href="#u56DE_u5F52_u7B97_u6CD5" class="headerlink" title="回归算法"></a>回归算法</h4><p>取得平台资格后，发现平台并没有提供时间序列算法的模型，而且基本上只有靠SQL来解决问题。考虑到平台有回归模型可以直接调用，所以想到了用回归模型来处理这个问题。</p>
+<p>基本思路是，提取特征，对每一个艺人建立回归模型。但是遇到了很多问题，最终没有实现。</p>
+<h2 id="u5C0F_u7ED3"><a href="#u5C0F_u7ED3" class="headerlink" title="小结"></a>小结</h2><ol>
+<li>学会用python处理和分析数据</li>
+<li>了解了阿里的大数据平台</li>
+<li>多浏览论坛的内容，可以获得很多有用的信息</li>
+</ol>
+]]></content>
     <summary type="html">
-    
+    <![CDATA[<h2 id="u7ADE_u8D5B_u4ECB_u7ECD"><a href="#u7ADE_u8D5B_u4ECB_u7ECD" class="headerlink" title="竞赛介绍"></a>竞赛介绍</h2><p>本次大赛以阿里音乐用户的历史播放数据为基础，期望]]>
     </summary>
     
-      <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="天池" scheme="http://yoursite.com/tags/%E5%A4%A9%E6%B1%A0/"/>
+    
+      <category term="音乐趋势， 预测" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90%E8%B6%8B%E5%8A%BF%EF%BC%8C-%E9%A2%84%E6%B5%8B/"/>
+    
+      <category term="Competitions" scheme="http://yoursite.com/categories/Competitions/"/>
     
   </entry>
   
