@@ -53,25 +53,16 @@
 
 
 
-<meta name="description" content="竞赛介绍本次大赛以阿里音乐用户的历史播放数据为基础，期望参赛者可以通过对阿里音乐平台上每个阶段艺人的试听量的预测，挖掘出即将成为潮流的艺人，从而实现对一个时间段内音乐流行趋势的准确把控。
-竞赛详情，点击天池大数据竞赛。
-第一赛季时间序列算法
-由于数据是具有时序的，目标是预测接下来的两个月的播放量，所以第一想法是用时间序列来处理这个问题。本来打算用Matlab来处理这个问题，看到队友用python的">
+<meta name="description" content="&amp;#x7ADE;&amp;#x8D5B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x672C;&amp;#x6B21;&amp;#x5927;&amp;#x8D5B;&amp;#x4EE5;&amp;#x963F;&amp;#x91CC;&amp;#x97F3;&amp;#x4E50;&amp;#x7528;&amp;#x6237;&amp;#x7684;&amp;#x5386;&amp;#x53F2;&amp;#x64AD;&amp;#x653E;&amp;#x6570;&amp;#x636E;&amp;#x4E3A;&amp;#x57FA;&amp;#x7840;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="天池流行音乐比赛小结">
 <meta property="og:url" content="http://yoursite.com/2016/07/16/天池流行音乐比赛/index.html">
 <meta property="og:site_name" content="Zheng's Blog">
-<meta property="og:description" content="竞赛介绍本次大赛以阿里音乐用户的历史播放数据为基础，期望参赛者可以通过对阿里音乐平台上每个阶段艺人的试听量的预测，挖掘出即将成为潮流的艺人，从而实现对一个时间段内音乐流行趋势的准确把控。
-竞赛详情，点击天池大数据竞赛。
-第一赛季时间序列算法
-由于数据是具有时序的，目标是预测接下来的两个月的播放量，所以第一想法是用时间序列来处理这个问题。本来打算用Matlab来处理这个问题，看到队友用python的">
+<meta property="og:description" content="&amp;#x7ADE;&amp;#x8D5B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x672C;&amp;#x6B21;&amp;#x5927;&amp;#x8D5B;&amp;#x4EE5;&amp;#x963F;&amp;#x91CC;&amp;#x97F3;&amp;#x4E50;&amp;#x7528;&amp;#x6237;&amp;#x7684;&amp;#x5386;&amp;#x53F2;&amp;#x64AD;&amp;#x653E;&amp;#x6570;&amp;#x636E;&amp;#x4E3A;&amp;#x57FA;&amp;#x7840;">
 <meta property="og:updated_time" content="2016-07-17T08:46:29.041Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="天池流行音乐比赛小结">
-<meta name="twitter:description" content="竞赛介绍本次大赛以阿里音乐用户的历史播放数据为基础，期望参赛者可以通过对阿里音乐平台上每个阶段艺人的试听量的预测，挖掘出即将成为潮流的艺人，从而实现对一个时间段内音乐流行趋势的准确把控。
-竞赛详情，点击天池大数据竞赛。
-第一赛季时间序列算法
-由于数据是具有时序的，目标是预测接下来的两个月的播放量，所以第一想法是用时间序列来处理这个问题。本来打算用Matlab来处理这个问题，看到队友用python的">
+<meta name="twitter:description" content="&amp;#x7ADE;&amp;#x8D5B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x672C;&amp;#x6B21;&amp;#x5927;&amp;#x8D5B;&amp;#x4EE5;&amp;#x963F;&amp;#x91CC;&amp;#x97F3;&amp;#x4E50;&amp;#x7528;&amp;#x6237;&amp;#x7684;&amp;#x5386;&amp;#x53F2;&amp;#x64AD;&amp;#x653E;&amp;#x6570;&amp;#x636E;&amp;#x4E3A;&amp;#x57FA;&amp;#x7840;">
 
 
 
@@ -278,20 +269,20 @@
       
 
       
-        <span itemprop="articleBody"><h2 id="u7ADE_u8D5B_u4ECB_u7ECD"><a href="#u7ADE_u8D5B_u4ECB_u7ECD" class="headerlink" title="竞赛介绍"></a>竞赛介绍</h2><p>本次大赛以阿里音乐用户的历史播放数据为基础，期望参赛者可以通过对阿里音乐平台上每个阶段艺人的试听量的预测，挖掘出即将成为潮流的艺人，从而实现对一个时间段内音乐流行趋势的准确把控。</p>
-<p>竞赛详情，点击<a href="https://tianchi.shuju.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.pGDBQ0&amp;raceId=231531" target="_blank" rel="external">天池大数据竞赛</a>。</p>
-<h2 id="u7B2C_u4E00_u8D5B_u5B63"><a href="#u7B2C_u4E00_u8D5B_u5B63" class="headerlink" title="第一赛季"></a>第一赛季</h2><p>时间序列算法</p>
-<p>由于数据是具有时序的，目标是预测接下来的两个月的播放量，所以第一想法是用时间序列来处理这个问题。本来打算用Matlab来处理这个问题，看到队友用python的工具包处理数据的过程，不得不说python在数据处理和分析上更快速便捷，于是决定学一下python。</p>
-<p>这里推荐<a href="https://book.douban.com/subject/25779298/" target="_blank" rel="external">《利用Python进行数据分析》</a>这本书。</p>
-<p>基本思路是，提取每个艺人6个月里每天的播放量数据，对每个艺人的播放量数据单独绘制自相关图、偏相关图。根据绘制的图像，计算不同的ARMA模型，从中选择最合适的模型，进行残差分析，结果预测等。</p>
-<p>由于没有多少时间花在比赛上，所以一开始的目标就是维持进复赛的资格。提交了数据后很长一段时间没有动手。最后第一赛季结束时排到了480多名，勉强进入复赛。</p>
-<h2 id="u7B2C_u4E8C_u8D5B_u5B63"><a href="#u7B2C_u4E8C_u8D5B_u5B63" class="headerlink" title="第二赛季"></a>第二赛季</h2><p>进了复赛后，就只能在平台进行比赛，第一次使用平台带来了很大麻烦。加上到了期末，没有多少时间，最后只是勉强提交了一个结果，感谢队友费了不少心。</p>
-<p>回归算法<br>取得平台资格后，发现平台并没有提供时间序列算法的模型，而且基本上只有靠SQL来解决问题。考虑到平台有回归模型可以直接调用，所以想到了用回归模型来处理这个问题。</p>
-<p>基本思路是，提取特征，对每一个艺人建立回归模型。但是遇到了很多问题，最终没有实现。</p>
-<h2 id="u5C0F_u7ED3"><a href="#u5C0F_u7ED3" class="headerlink" title="小结"></a>小结</h2><ol>
-<li>学会用python处理和分析数据</li>
-<li>了解了阿里的大数据平台</li>
-<li>多浏览论坛的内容，可以获得很多有用的信息</li>
+        <span itemprop="articleBody"><h2 id="u7ADE_u8D5B_u4ECB_u7ECD"><a href="#u7ADE_u8D5B_u4ECB_u7ECD" class="headerlink" title="&#x7ADE;&#x8D5B;&#x4ECB;&#x7ECD;"></a>&#x7ADE;&#x8D5B;&#x4ECB;&#x7ECD;</h2><p>&#x672C;&#x6B21;&#x5927;&#x8D5B;&#x4EE5;&#x963F;&#x91CC;&#x97F3;&#x4E50;&#x7528;&#x6237;&#x7684;&#x5386;&#x53F2;&#x64AD;&#x653E;&#x6570;&#x636E;&#x4E3A;&#x57FA;&#x7840;&#xFF0C;&#x671F;&#x671B;&#x53C2;&#x8D5B;&#x8005;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5BF9;&#x963F;&#x91CC;&#x97F3;&#x4E50;&#x5E73;&#x53F0;&#x4E0A;&#x6BCF;&#x4E2A;&#x9636;&#x6BB5;&#x827A;&#x4EBA;&#x7684;&#x8BD5;&#x542C;&#x91CF;&#x7684;&#x9884;&#x6D4B;&#xFF0C;&#x6316;&#x6398;&#x51FA;&#x5373;&#x5C06;&#x6210;&#x4E3A;&#x6F6E;&#x6D41;&#x7684;&#x827A;&#x4EBA;&#xFF0C;&#x4ECE;&#x800C;&#x5B9E;&#x73B0;&#x5BF9;&#x4E00;&#x4E2A;&#x65F6;&#x95F4;&#x6BB5;&#x5185;&#x97F3;&#x4E50;&#x6D41;&#x884C;&#x8D8B;&#x52BF;&#x7684;&#x51C6;&#x786E;&#x628A;&#x63A7;&#x3002;</p>
+<p>&#x7ADE;&#x8D5B;&#x8BE6;&#x60C5;&#xFF0C;&#x70B9;&#x51FB;<a href="https://tianchi.shuju.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.pGDBQ0&amp;raceId=231531" target="_blank" rel="external">&#x5929;&#x6C60;&#x5927;&#x6570;&#x636E;&#x7ADE;&#x8D5B;</a>&#x3002;</p>
+<h2 id="u7B2C_u4E00_u8D5B_u5B63"><a href="#u7B2C_u4E00_u8D5B_u5B63" class="headerlink" title="&#x7B2C;&#x4E00;&#x8D5B;&#x5B63;"></a>&#x7B2C;&#x4E00;&#x8D5B;&#x5B63;</h2><p>&#x65F6;&#x95F4;&#x5E8F;&#x5217;&#x7B97;&#x6CD5;</p>
+<p>&#x7531;&#x4E8E;&#x6570;&#x636E;&#x662F;&#x5177;&#x6709;&#x65F6;&#x5E8F;&#x7684;&#xFF0C;&#x76EE;&#x6807;&#x662F;&#x9884;&#x6D4B;&#x63A5;&#x4E0B;&#x6765;&#x7684;&#x4E24;&#x4E2A;&#x6708;&#x7684;&#x64AD;&#x653E;&#x91CF;&#xFF0C;&#x6240;&#x4EE5;&#x7B2C;&#x4E00;&#x60F3;&#x6CD5;&#x662F;&#x7528;&#x65F6;&#x95F4;&#x5E8F;&#x5217;&#x6765;&#x5904;&#x7406;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x3002;&#x672C;&#x6765;&#x6253;&#x7B97;&#x7528;Matlab&#x6765;&#x5904;&#x7406;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x770B;&#x5230;&#x961F;&#x53CB;&#x7528;python&#x7684;&#x5DE5;&#x5177;&#x5305;&#x5904;&#x7406;&#x6570;&#x636E;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x4E0D;&#x5F97;&#x4E0D;&#x8BF4;python&#x5728;&#x6570;&#x636E;&#x5904;&#x7406;&#x548C;&#x5206;&#x6790;&#x4E0A;&#x66F4;&#x5FEB;&#x901F;&#x4FBF;&#x6377;&#xFF0C;&#x4E8E;&#x662F;&#x51B3;&#x5B9A;&#x5B66;&#x4E00;&#x4E0B;python&#x3002;</p>
+<p>&#x8FD9;&#x91CC;&#x63A8;&#x8350;<a href="https://book.douban.com/subject/25779298/" target="_blank" rel="external">&#x300A;&#x5229;&#x7528;Python&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5206;&#x6790;&#x300B;</a>&#x8FD9;&#x672C;&#x4E66;&#x3002;</p>
+<p>&#x57FA;&#x672C;&#x601D;&#x8DEF;&#x662F;&#xFF0C;&#x63D0;&#x53D6;&#x6BCF;&#x4E2A;&#x827A;&#x4EBA;6&#x4E2A;&#x6708;&#x91CC;&#x6BCF;&#x5929;&#x7684;&#x64AD;&#x653E;&#x91CF;&#x6570;&#x636E;&#xFF0C;&#x5BF9;&#x6BCF;&#x4E2A;&#x827A;&#x4EBA;&#x7684;&#x64AD;&#x653E;&#x91CF;&#x6570;&#x636E;&#x5355;&#x72EC;&#x7ED8;&#x5236;&#x81EA;&#x76F8;&#x5173;&#x56FE;&#x3001;&#x504F;&#x76F8;&#x5173;&#x56FE;&#x3002;&#x6839;&#x636E;&#x7ED8;&#x5236;&#x7684;&#x56FE;&#x50CF;&#xFF0C;&#x8BA1;&#x7B97;&#x4E0D;&#x540C;&#x7684;ARMA&#x6A21;&#x578B;&#xFF0C;&#x4ECE;&#x4E2D;&#x9009;&#x62E9;&#x6700;&#x5408;&#x9002;&#x7684;&#x6A21;&#x578B;&#xFF0C;&#x8FDB;&#x884C;&#x6B8B;&#x5DEE;&#x5206;&#x6790;&#xFF0C;&#x7ED3;&#x679C;&#x9884;&#x6D4B;&#x7B49;&#x3002;</p>
+<p>&#x7531;&#x4E8E;&#x6CA1;&#x6709;&#x591A;&#x5C11;&#x65F6;&#x95F4;&#x82B1;&#x5728;&#x6BD4;&#x8D5B;&#x4E0A;&#xFF0C;&#x6240;&#x4EE5;&#x4E00;&#x5F00;&#x59CB;&#x7684;&#x76EE;&#x6807;&#x5C31;&#x662F;&#x7EF4;&#x6301;&#x8FDB;&#x590D;&#x8D5B;&#x7684;&#x8D44;&#x683C;&#x3002;&#x63D0;&#x4EA4;&#x4E86;&#x6570;&#x636E;&#x540E;&#x5F88;&#x957F;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#x6CA1;&#x6709;&#x52A8;&#x624B;&#x3002;&#x6700;&#x540E;&#x7B2C;&#x4E00;&#x8D5B;&#x5B63;&#x7ED3;&#x675F;&#x65F6;&#x6392;&#x5230;&#x4E86;480&#x591A;&#x540D;&#xFF0C;&#x52C9;&#x5F3A;&#x8FDB;&#x5165;&#x590D;&#x8D5B;&#x3002;</p>
+<h2 id="u7B2C_u4E8C_u8D5B_u5B63"><a href="#u7B2C_u4E8C_u8D5B_u5B63" class="headerlink" title="&#x7B2C;&#x4E8C;&#x8D5B;&#x5B63;"></a>&#x7B2C;&#x4E8C;&#x8D5B;&#x5B63;</h2><p>&#x8FDB;&#x4E86;&#x590D;&#x8D5B;&#x540E;&#xFF0C;&#x5C31;&#x53EA;&#x80FD;&#x5728;&#x5E73;&#x53F0;&#x8FDB;&#x884C;&#x6BD4;&#x8D5B;&#xFF0C;&#x7B2C;&#x4E00;&#x6B21;&#x4F7F;&#x7528;&#x5E73;&#x53F0;&#x5E26;&#x6765;&#x4E86;&#x5F88;&#x5927;&#x9EBB;&#x70E6;&#x3002;&#x52A0;&#x4E0A;&#x5230;&#x4E86;&#x671F;&#x672B;&#xFF0C;&#x6CA1;&#x6709;&#x591A;&#x5C11;&#x65F6;&#x95F4;&#xFF0C;&#x6700;&#x540E;&#x53EA;&#x662F;&#x52C9;&#x5F3A;&#x63D0;&#x4EA4;&#x4E86;&#x4E00;&#x4E2A;&#x7ED3;&#x679C;&#xFF0C;&#x611F;&#x8C22;&#x961F;&#x53CB;&#x8D39;&#x4E86;&#x4E0D;&#x5C11;&#x5FC3;&#x3002;</p>
+<p>&#x56DE;&#x5F52;&#x7B97;&#x6CD5;<br>&#x53D6;&#x5F97;&#x5E73;&#x53F0;&#x8D44;&#x683C;&#x540E;&#xFF0C;&#x53D1;&#x73B0;&#x5E73;&#x53F0;&#x5E76;&#x6CA1;&#x6709;&#x63D0;&#x4F9B;&#x65F6;&#x95F4;&#x5E8F;&#x5217;&#x7B97;&#x6CD5;&#x7684;&#x6A21;&#x578B;&#xFF0C;&#x800C;&#x4E14;&#x57FA;&#x672C;&#x4E0A;&#x53EA;&#x6709;&#x9760;SQL&#x6765;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x3002;&#x8003;&#x8651;&#x5230;&#x5E73;&#x53F0;&#x6709;&#x56DE;&#x5F52;&#x6A21;&#x578B;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8C03;&#x7528;&#xFF0C;&#x6240;&#x4EE5;&#x60F3;&#x5230;&#x4E86;&#x7528;&#x56DE;&#x5F52;&#x6A21;&#x578B;&#x6765;&#x5904;&#x7406;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x3002;</p>
+<p>&#x57FA;&#x672C;&#x601D;&#x8DEF;&#x662F;&#xFF0C;&#x63D0;&#x53D6;&#x7279;&#x5F81;&#xFF0C;&#x5BF9;&#x6BCF;&#x4E00;&#x4E2A;&#x827A;&#x4EBA;&#x5EFA;&#x7ACB;&#x56DE;&#x5F52;&#x6A21;&#x578B;&#x3002;&#x4F46;&#x662F;&#x9047;&#x5230;&#x4E86;&#x5F88;&#x591A;&#x95EE;&#x9898;&#xFF0C;&#x6700;&#x7EC8;&#x6CA1;&#x6709;&#x5B9E;&#x73B0;&#x3002;</p>
+<h2 id="u5C0F_u7ED3"><a href="#u5C0F_u7ED3" class="headerlink" title="&#x5C0F;&#x7ED3;"></a>&#x5C0F;&#x7ED3;</h2><ol>
+<li>&#x5B66;&#x4F1A;&#x7528;python&#x5904;&#x7406;&#x548C;&#x5206;&#x6790;&#x6570;&#x636E;</li>
+<li>&#x4E86;&#x89E3;&#x4E86;&#x963F;&#x91CC;&#x7684;&#x5927;&#x6570;&#x636E;&#x5E73;&#x53F0;</li>
+<li>&#x591A;&#x6D4F;&#x89C8;&#x8BBA;&#x575B;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x53EF;&#x4EE5;&#x83B7;&#x5F97;&#x5F88;&#x591A;&#x6709;&#x7528;&#x7684;&#x4FE1;&#x606F;</li>
 </ol>
 </span>
       
@@ -394,7 +385,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">11</span>
+              <span class="site-state-item-count">10</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
