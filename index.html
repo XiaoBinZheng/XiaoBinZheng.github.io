@@ -199,6 +199,15 @@
 
     
     
+      
+      
+        
+        
+        
+      
+
+      
+    
 
     
       
@@ -570,12 +579,13 @@ __double underscores__
             
               <h2 id="u7ADE_u8D5B_u4ECB_u7ECD"><a href="#u7ADE_u8D5B_u4ECB_u7ECD" class="headerlink" title="竞赛介绍"></a>竞赛介绍</h2><p>本次大赛以阿里音乐用户的历史播放数据为基础，期望参赛者可以通过对阿里音乐平台上每个阶段艺人的试听量的预测，挖掘出即将成为潮流的艺人，从而实现对一个时间段内音乐流行趋势的准确把控。</p>
 <p>竞赛详情，点击<a href="https://tianchi.shuju.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.pGDBQ0&amp;raceId=231531" target="_blank" rel="external">天池大数据竞赛</a>。</p>
-<h2 id="u7B2C_u4E00_u8D5B_u5B63"><a href="#u7B2C_u4E00_u8D5B_u5B63" class="headerlink" title="第一赛季"></a>第一赛季</h2><h4 id="u8FD0_u7528_u65F6_u95F4_u5E8F_u5217_u7B97_u6CD5"><a href="#u8FD0_u7528_u65F6_u95F4_u5E8F_u5217_u7B97_u6CD5" class="headerlink" title="运用时间序列算法"></a>运用时间序列算法</h4><p>由于数据是具有时序的，目标是预测接下来的两个月的播放量，所以第一想法是用时间序列来处理这个问题。本来打算用Matlab来处理这个问题，看到队友用python的工具包处理数据的过程，不得不说python在数据处理和分析上更快速便捷，于是决定学一下python。</p>
+<h2 id="u7B2C_u4E00_u8D5B_u5B63"><a href="#u7B2C_u4E00_u8D5B_u5B63" class="headerlink" title="第一赛季"></a>第一赛季</h2><p>时间序列算法</p>
+<p>由于数据是具有时序的，目标是预测接下来的两个月的播放量，所以第一想法是用时间序列来处理这个问题。本来打算用Matlab来处理这个问题，看到队友用python的工具包处理数据的过程，不得不说python在数据处理和分析上更快速便捷，于是决定学一下python。</p>
 <p>这里推荐<a href="https://book.douban.com/subject/25779298/" target="_blank" rel="external">《利用Python进行数据分析》</a>这本书。</p>
 <p>基本思路是，提取每个艺人6个月里每天的播放量数据，对每个艺人的播放量数据单独绘制自相关图、偏相关图。根据绘制的图像，计算不同的ARMA模型，从中选择最合适的模型，进行残差分析，结果预测等。</p>
 <p>由于没有多少时间花在比赛上，所以一开始的目标就是维持进复赛的资格。提交了数据后很长一段时间没有动手。最后第一赛季结束时排到了480多名，勉强进入复赛。</p>
 <h2 id="u7B2C_u4E8C_u8D5B_u5B63"><a href="#u7B2C_u4E8C_u8D5B_u5B63" class="headerlink" title="第二赛季"></a>第二赛季</h2><p>进了复赛后，就只能在平台进行比赛，第一次使用平台带来了很大麻烦。加上到了期末，没有多少时间，最后只是勉强提交了一个结果，感谢队友费了不少心。</p>
-<h4 id="u56DE_u5F52_u7B97_u6CD5"><a href="#u56DE_u5F52_u7B97_u6CD5" class="headerlink" title="回归算法"></a>回归算法</h4><p>取得平台资格后，发现平台并没有提供时间序列算法的模型，而且基本上只有靠SQL来解决问题。考虑到平台有回归模型可以直接调用，所以想到了用回归模型来处理这个问题。</p>
+<p>回归算法<br>取得平台资格后，发现平台并没有提供时间序列算法的模型，而且基本上只有靠SQL来解决问题。考虑到平台有回归模型可以直接调用，所以想到了用回归模型来处理这个问题。</p>
 <p>基本思路是，提取特征，对每一个艺人建立回归模型。但是遇到了很多问题，最终没有实现。</p>
 <h2 id="u5C0F_u7ED3"><a href="#u5C0F_u7ED3" class="headerlink" title="小结"></a>小结</h2><ol>
 <li>学会用python处理和分析数据</li>
